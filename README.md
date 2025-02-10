@@ -103,14 +103,6 @@ We are actively refining our analysis! You can follow the progress in:
 * **`our_implementation.ipynb`** → Our custom implementation of the models.
 * **`source_rf_regression_modelling.ipynb`** → Original reference implementation.
 
-👉 Stay tuned for further updates as we refine the model predictions and insights!
-
-This repository contains **data analysis and machine learning models** to predict **food insecurity crises** using **news-based NLP features and time-series data**. The analysis follows the methodology from the paper:
-
-📄 **Paper:** [Predicting food crises using news streams](https://www.science.org/doi/10.1126/sciadv.abm3449)
-📊 **Dataset:** [Harvard Dataverse Repository](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/CJDWUW)
-📜 **Original Repo & Methods:** [GitHub Repository - Step 5 (Regression Modelling)](https://github.com/philippzi98/food_insecurity_predictions_nlp/blob/main/Step%205%20-%20Regression%20Modelling/README.md)
-
 ---
 
 ## 📂 **Dataset Overview**
@@ -148,22 +140,5 @@ This repository analyzes and cleans multiple datasets that contribute to **food 
   - `dehydrated_0, dehydrated_1, dehydrated_2` → Drought or rainfall measures.
   - `mismanagement_0, mismanagement_1, mismanagement_2` → Governance and economic indicators.
 - **Use in Analysis:** This dataset is the **core input for training predictive models** in Step 5.
-
----
-
-## 🔍 **Methodology**
-
-1. **Data Cleaning & Standardization**
-
-   - Fix missing or inconsistent district names (`matching_districts.csv`).
-   - Standardize food insecurity levels using IPC classifications.
-2. **Feature Engineering & Time Series Processing**
-
-   - Normalize causal indicators using **z-score normalization**.
-   - Include lagged variables to improve prediction accuracy.
-3. **Regression Modelling for Food Crisis Prediction**
-
-   - Train **Random Forest Regression** and other time-series models.
-   - Predict future IPC classifications based on past data.
 
 ---
