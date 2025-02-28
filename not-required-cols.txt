@@ -1,17 +1,12 @@
+ _1 and _2
  'centx',
  'centy',
  'change_fews',
  'fews_ha',
  'fews_proj_med',
  'fews_proj_med_ha',
-
  'fews_proj_near_ha',
-
- ----'index',
-
-
-
-
+ 'index',
 remove one of them 
 -----
  'month',
