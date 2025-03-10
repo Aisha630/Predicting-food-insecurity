@@ -33,3 +33,6 @@ xyzservices==2025.1.0
 ipykernel
 editdistance
 fuzzywuzzy
+scikit-learn
+python-Levenshtein
+
