@@ -7,3 +7,4 @@ data.zip
 world-bank/
 comp.ipynb
 !their_modified_time_series.csv
+!their_modified_time_series_only_tvariant_30.csv
