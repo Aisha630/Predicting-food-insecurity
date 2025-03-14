@@ -5,4 +5,5 @@ data/
 __pycache__/
 data.zip
 world-bank/
-
+comp.ipynb
+!their_modified_time_series.csv
