@@ -4,7 +4,6 @@ data/
 .vscode/
 __pycache__/
 data.zip
-world-bank/
+world-bank*/
 comp.ipynb
-!their_modified_time_series.csv
-!their_modified_time_series_only_tvariant_30.csv
+comparision_data/
