@@ -148,6 +148,9 @@ This approach scrapes articles district wise.
 - **Description:**  
   This Python script reads from `districts_urls.csv` and fetches links specific to each district by crawling the corresponding main page. It retrieves the links of articles for every district.
 
+### `retrieve-district-articles.py`
+- **Description:**  
+  This Python script processes the links in each of the `<district_article_links.csv`, retrieves the associated articles, and extracts the title, publication date, and the article content.
 ---
 
 ## 2. Entire Pakistan Extraction (Past 2 Years)
