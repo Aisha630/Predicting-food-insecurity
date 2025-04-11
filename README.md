@@ -123,3 +123,43 @@ cd food_insecurity_predictions_nlp
 ```bash
 uv pip install -r requirements.txt
 ```
+
+
+# Articles Extractions
+
+The part focused on how to extract articles from Urdu Point, focusing on two main approaches:
+
+1. **District-wise Article Extraction**  
+2. **Entire Pakistan Article Extraction (Past 2 Years)**
+
+---
+
+## 1. District-wise Extraction
+
+This approach scrapes articles district wise.
+
+### `districts_urls.csv`
+- **Description:**  
+  This CSV file contains a list of districts along with their corresponding URLs.  
+  - **district** column: Contains the district names for which we have classifications and whose articles are available on Urdu Point.
+  - **url** column: Contains the link to the main page of that district on Urdu Point. This main page is used to extract additional article links related to that district.
+
+### `extract-district-links.py`
+- **Description:**  
+  This Python script reads from `districts_urls.csv` and fetches links specific to each district by crawling the corresponding main page. It retrieves the links of articles for every district.
+
+---
+
+## 2. Entire Pakistan Extraction (Past 2 Years)
+
+This approach scrapes articles published on Urdu Point over the past two years across Pakistan.
+
+### `2-years-links.txt`
+- **Description:**  
+  This text file contains a list of links covering the past two years on Urdu Point. The date range starts from **1st January 2023** and continues until **10th April 2025**.
+
+### `retrieve-all-articles.py`
+- **Description:**  
+  This Python script processes each link listed in `2-years-links.txt`, retrieves the associated articles, and extracts the title, publication date, and the article content.
+
+---

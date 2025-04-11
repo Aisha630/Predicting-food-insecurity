@@ -1,0 +1,18 @@
+Artciles extractions
+a. district wise 
+1. districts_urls.csv
+
+this contains the district column which has the distrcit names for which we have classifcstion and whose articles are avaliable on Urdu Point
+
+url column has the link to the main age of that distrcit on urdu point , from which we retirve more links of that distrcits articles.
+
+
+2. extract-district-links.py
+
+This read
+
+b.entire pakistand last 20 years
+
+2-years-links.txt has the links of past 2 years for paksitan from urdu point staring from 1st jan 2023 till 10th spril 2025.
+
+retrieve-all-articles.py retrives all articles from those links, save the title date and content

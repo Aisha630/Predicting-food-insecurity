@@ -54,7 +54,7 @@ def extract_date_from_url(url):
 
 def main():
     # Read filtered URLs from the text file (one URL per line)
-    input_file = "20years-links.txt"
+    input_file = "2-years-links.txt"
     try:
         with open(input_file, "r", encoding="utf-8") as f:
             urls = [line.strip() for line in f if line.strip()]
