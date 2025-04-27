@@ -35,4 +35,8 @@ editdistance
 fuzzywuzzy
 scikit-learn
 python-Levenshtein
+cupy
+mord
+scikit-learn
+polars
 
