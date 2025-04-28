@@ -8,6 +8,6 @@ world-bank*/
 comp.ipynb
 comparision_data/
 extras/
-LLM-based-modifications/urdu-point/district-articles/
-LLM-based-modifications/urdu-point/district_links/
-LLM-based-modifications/urdu-point/**.txt
+urdu-point/district-articles/
+urdu-point/district_links/
+urdu-point/**.txt
